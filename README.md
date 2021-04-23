@@ -20,4 +20,7 @@ Converts HTML img tags into svgs. Image SRCs still have to be in .svg format for
 > #### onError
 > (Optional) Callback function to be calle upon an error while loading svg or initialization.
 
+## Example usage
+><script src="/assets/js/svgs/imgtosvg.js"></script>
 
+>$('img[src*=".svg"]').imgToSvg();
