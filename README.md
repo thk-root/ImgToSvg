@@ -11,8 +11,13 @@ Converts HTML img tags into svgs. Image SRCs still have to be in .svg format for
 > #### loadedClass
 > (Optional) Class to be appended on the svg element once loading is completed.
 
+> #### removeSvgAttrs
+> (Optional) Array of attribute names, which you want removed from newly created svg element.
+
 > #### onLoad
 > (Optional) Callback function to be called once (each) svg is loaded.
 
 > #### onError
 > (Optional) Callback function to be calle upon an error while loading svg or initialization.
+
+
